@@ -1,6 +1,8 @@
 name: uppert-selftest
 on: 
   push:
+     paths: 
+        - ".github/workflows/upper-adil.yml"
 
 jobs:
     build:
